@@ -26,14 +26,15 @@
             "windows": "\ue70f"
           },
           "style": "diamond",
-          "leading_diamond": "\ue0b2",
           "template": " {{ .Icon }} ",
+          "trailing_diamond": "\ue0b0",
           "type": "os"
         },
         {
           "background": "#e4e4e4",
           "foreground": "#4e4e4e",
-          "style": "powerline",
+          "leading_diamond": "<transparent,background>\ue0b0</>",
+          "style": "diamond",
           "powerline_symbol": "\ue0b0",
           "template": " {{ .UserName }} ",
           "type": "session"
