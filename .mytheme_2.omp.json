@@ -83,7 +83,7 @@
           },
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
-          "template": " \uf608 {{ .FormattedMs }} ",
+          "template": " \ueba2 {{ .FormattedMs }} ",
           "type": "executiontime"
         }
       ],
